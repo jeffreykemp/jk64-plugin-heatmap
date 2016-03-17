@@ -296,6 +296,18 @@ wwv_flow_api.create_plugin(
 ,p_files_version=>15
 );
 wwv_flow_api.create_plugin_attribute(
+ p_id=>wwv_flow_api.id(75440994636877765)
+,p_plugin_id=>wwv_flow_api.id(75424330494277385)
+,p_attribute_scope=>'APPLICATION'
+,p_attribute_sequence=>1
+,p_display_sequence=>10
+,p_prompt=>'Google API Key'
+,p_attribute_type=>'TEXT'
+,p_is_required=>false
+,p_is_translatable=>false
+,p_help_text=>'Optional. If you don''t set this, you may get a "Google Maps API warning: NoApiKeys" warning in the console log. You can add this later if required. Refer: https://developers.google.com/maps/documentation/javascript/get-api-key#get-an-api-key'
+);
+wwv_flow_api.create_plugin_attribute(
  p_id=>wwv_flow_api.id(75425828282303507)
 ,p_plugin_id=>wwv_flow_api.id(75424330494277385)
 ,p_attribute_scope=>'COMPONENT'
