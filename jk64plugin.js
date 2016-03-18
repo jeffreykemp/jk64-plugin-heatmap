@@ -1,17 +1,11 @@
 function jk64plugin_heatmap(opt) {
 	apex.debug(opt.regionId+" heatmap");
 	var pts = [];
-	// expand the map data into an array of points
 	for (var i = 0; i < opt.mapdata.length; i++) {
 		pts.push({
 			location:new google.maps.LatLng(opt.mapdata[i].a, opt.mapdata[i].b),
 			weight:opt.mapdata[i].c
 		});
-//		if (opt.mapdata[i].c > 0) {
-//			for (var j = 0; j < opt.mapdata[i].c; j++) {
-//				pts.push(new google.maps.LatLng(opt.mapdata[i].a, opt.mapdata[i].b));
-//			}			
-//		}
 	}
 	opt.heatmap = new google.maps.visualization.HeatmapLayer({
 		data: pts,
@@ -41,9 +35,11 @@ function jk64plugin_refreshMap(opt) {
   apex.jQuery("#"+opt.regionId).trigger("apexbeforerefresh");
   apex.server.plugin
     (opt.ajaxIdentifier
+    ,{ pageItems: opt.ajaxItems }
     ,{ dataType: "json"
       ,success: function( pData ) {
-          apex.debug(opt.regionId+" success pData="+pData.southwest.lat+","+pData.southwest.lng+" "+pData.northeast.lat+","+pData.northeast.lng);
+		  apex.debug(opt.regionId+" success");
+          apex.debug(opt.regionId+" pData.southwest="+pData.southwest.lat+","+pData.southwest.lng+" pData.northeast="+pData.northeast.lat+","+pData.northeast.lng);
           opt.map.fitBounds(
             {south:pData.southwest.lat
             ,west: pData.southwest.lng
