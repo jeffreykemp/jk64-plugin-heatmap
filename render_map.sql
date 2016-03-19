@@ -142,7 +142,7 @@ BEGIN
       ,p_skip_extension => true);
 
     APEX_JAVASCRIPT.add_library
-      (p_name           => 'jk64plugin'
+      (p_name           => 'jk64plugin.min'
       ,p_directory      => p_plugin.file_prefix);
 
     l_region := CASE
@@ -180,8 +180,9 @@ var opt_#REGION# = {
   ,northeast:      {'||latlng2ch(l_lat_max,l_lng_max)||'}
   ,dissipating:    '||CASE WHEN l_dissipating = 'Y' THEN 'true' ELSE 'false' END||'
   ,opacity:        '||l_opacity||'
-  ,radius:         '||l_radius||'
-  ,mapstyle:       '||l_mapstyle||'
+  ,radius:         '||l_radius ||
+  CASE WHEN l_mapstyle IS NOT NULL THEN '
+  ,mapstyle:       '||l_mapstyle END || '
 };
 function r_#REGION#(f){/in/.test(document.readyState)?setTimeout("r_#REGION#("+f+")",9):f()}
 r_#REGION#(function(){
