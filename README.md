@@ -1,4 +1,4 @@
-# Google Map Heatmap region plugin for Application Express #
+# GeoHeatmap region plugin (Google Maps) for Application Express #
 
 This allows you to add a Google Map region to any page, showing a heatmap based on a query you specify. 
 
