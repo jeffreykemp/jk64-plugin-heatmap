@@ -25,7 +25,7 @@
       "plugin" : {
         "internalName" : "COM.JK64.HEATMAP",
         "type" : "region",
-        "demo" : "https://apex.oracle.com/pls/apex/f?p=JK64_HEATMAP",
+        "demo" : "https://apex.oracle.com/pls/apex/f?p=JK64_GEOHEATMAP",
         "previewImage" : "https://github.com/jeffreykemp/jk64-plugin-heatmap/raw/master/plugin-heatmap-preview.png"
       }
     }
