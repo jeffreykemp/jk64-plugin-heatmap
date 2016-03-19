@@ -1,7 +1,7 @@
 {
-  "name" : "jk64HeatMap",
+  "name" : "GeoHeatMap",
   "version" : "0.1",
-  "description" : "Google Map Heatmap region plugin",
+  "description" : "GeoHeatmap (Google Map) region plugin",
   "keywords" : ["map"],
   "homepage" : "https://github.com/jeffreykemp/jk64-plugin-heatmap",
   "bugs" : {

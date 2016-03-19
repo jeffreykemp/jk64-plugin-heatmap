@@ -246,7 +246,7 @@ BEGIN
     sys.htp.p('Pragma: no-cache');
     sys.owa_util.http_header_close;
     
-    APEX_DEBUG.message('l_lat_min='||l_lat_min||' data='||l_data.COUNT, p_force => TRUE);
+    APEX_DEBUG.message('l_lat_min='||l_lat_min||' data='||l_data.COUNT);
     
     sys.htp.p('{"southwest":{'
       || latlng2ch(l_lat_min,l_lng_min)

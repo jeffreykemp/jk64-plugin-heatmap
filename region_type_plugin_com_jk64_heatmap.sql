@@ -31,7 +31,7 @@ wwv_flow_api.create_plugin(
  p_id=>wwv_flow_api.id(75424330494277385)
 ,p_plugin_type=>'REGION TYPE'
 ,p_name=>'COM.JK64.HEATMAP'
-,p_display_name=>'jk64HeatMap'
+,p_display_name=>'GeoHeatMap'
 ,p_supported_ui_types=>'DESKTOP:JQM_SMARTPHONE'
 ,p_plsql_code=>wwv_flow_utilities.join(wwv_flow_t_varchar2(
 'PROCEDURE set_map_extents',
@@ -282,7 +282,7 @@ wwv_flow_api.create_plugin(
 '    sys.htp.p(''Pragma: no-cache'');',
 '    sys.owa_util.http_header_close;',
 '    ',
-'    APEX_DEBUG.message(''l_lat_min=''||l_lat_min||'' data=''||l_data.COUNT, p_force => TRUE);',
+'    APEX_DEBUG.message(''l_lat_min=''||l_lat_min||'' data=''||l_data.COUNT);',
 '    ',
 '    sys.htp.p(''{"southwest":{''',
 '      || latlng2ch(l_lat_min,l_lng_min)',
@@ -312,11 +312,11 @@ wwv_flow_api.create_plugin(
 ||'h record and it''ll work fine; however if you have a lot of data points, see if you can reduce the volume of data by grouping them by lat,lng and use count(*) for the weight. You might want to reduce the precision for the latitude and longitude values'
 ||' somewhat so that they are more likely to get grouped together.',
 '<p>',
-'<strong>Don''t forget to set the <em>Number of Rows</em> attribute on your region to something sane, e.g. 1000 or more.</strong>',
+'<strong>Don''t forget to set the <em>Number of Rows</em> attribute on your region to the maximum rows you expect to get from the query, e.g. 1000 or more.</strong>',
 '<p>',
 'Play with the dissipating and radius plugin attributes until you''re happy with the result.',
 '<p>',
-'If you want, you can change the default map style, e.g. to show the map in greyscale (which helps to make the heatmap easier to see) - see help under the Map Style attribute for more details.'))
+'If you want, you can change the default map style, e.g. to show the map in greyscale (which helps to make the heatmap easier to see) - see help under the <strong>Map Style</strong> attribute for more details.'))
 ,p_version_identifier=>'0.1'
 ,p_about_url=>'https://github.com/jeffreykemp/jk64-plugin-heatmap'
 ,p_files_version=>23
