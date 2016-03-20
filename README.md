@@ -6,7 +6,7 @@ This allows you to add a Google Map region to any page, showing a heatmap based 
 
 ## DEMO ##
 
-[https://apex.oracle.com/pls/apex/f?p=JK64_GEOHEATMAP](https://apex.oracle.com/pls/apex/f?p=JK64_GEOHEATMAP)
+[https://apex.oracle.com/pls/apex/f?p=JK64_GEOHEATMAP&c=JK64](https://apex.oracle.com/pls/apex/f?p=JK64_GEOHEATMAP&c=JK64)
 
 ## INSTALLATION INSTRUCTIONS ##
 
