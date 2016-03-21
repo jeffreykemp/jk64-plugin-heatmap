@@ -15,6 +15,7 @@ This allows you to add a Google Map region to any page, showing a heatmap based 
 3. *(optional)* Supply your **Google API Key** (NOTE: the plugin is usable without one)
 4. Add a region to the page, select type **GeoHeatmap [Plug-In]**
 5. For **SQL Source**, enter a query with 3 columns (see example below)
+6. Update the **Number of Rows** to a reasonable upper limit (default is 15, you probably want a much bigger number)
 
 **Sample query**
 
