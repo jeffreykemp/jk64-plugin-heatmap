@@ -25,4 +25,4 @@ select lat, lng, weight from mydata
 
 If you don't have any "weight" to go with the data points (e.g. population, earthquake magnitude, sales volume), just set the third column to `1`, e.g. `select lat, lng, 1 from mydata`.
 
-For more info including version history and plugin references, refer to the [WIKI](https://github.com/jeffreykemp/jk64-plugin-heatmap/wiki).
+For more info, refer to the [WIKI](https://github.com/jeffreykemp/jk64-plugin-heatmap/wiki).
