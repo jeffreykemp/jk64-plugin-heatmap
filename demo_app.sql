@@ -27,7 +27,7 @@ prompt APPLICATION 573 - Demo GeoHeatmap Plugin
 -- Application Export:
 --   Application:     573
 --   Name:            Demo GeoHeatmap Plugin
---   Date and Time:   18:44 Friday March 25, 2016
+--   Date and Time:   18:56 Friday March 25, 2016
 --   Exported By:     JEFF
 --   Flashback:       0
 --   Export Type:     Application Export
@@ -103,7 +103,7 @@ wwv_flow_api.create_flow(
 ,p_application_tab_set=>0
 ,p_logo_image=>'TEXT:Heatmap Plugin Demo'
 ,p_proxy_server=> nvl(wwv_flow_application_install.get_proxy,'')
-,p_flow_version=>'release 0.1'
+,p_flow_version=>'release 0.2'
 ,p_flow_status=>'AVAILABLE_W_EDIT_LINK'
 ,p_flow_unavailable_text=>'This application is currently unavailable at this time.'
 ,p_exact_substitutions_only=>'Y'
@@ -114,7 +114,7 @@ wwv_flow_api.create_flow(
 ,p_substitution_string_01=>'REPOSITORY'
 ,p_substitution_value_01=>'https://github.com/jeffreykemp/jk64-plugin-heatmap'
 ,p_last_updated_by=>'JEFF'
-,p_last_upd_yyyymmddhh24miss=>'20160325184327'
+,p_last_upd_yyyymmddhh24miss=>'20160325185639'
 ,p_file_prefix => nvl(wwv_flow_application_install.get_static_app_file_prefix,'')
 ,p_ui_type_name => null
 );
