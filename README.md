@@ -2,7 +2,7 @@
 
 This allows you to add a Google Map region to any page, showing a heatmap based on a query you specify. 
 
-![plugin-heatmap-preview.png](https://raw.githubusercontent.com/jeffreykemp/jk64-plugin-heatmap/master/plugin-heatmap-preview.png)
+![plugin-heatmap-preview.png](https://raw.githubusercontent.com/jeffreykemp/jk64-plugin-heatmap/master/src/plugin-heatmap-preview.png)
 
 ## DEMO ##
 
