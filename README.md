@@ -1,4 +1,6 @@
-# GeoHeatmap region plugin (Google Maps) for Application Express #
+# GeoHeatmap (Google Maps) #
+
+**A Region plugin for Oracle Application Express**
 
 This allows you to add a Google Map region to any page, showing a heatmap based on a query you specify. 
 
@@ -7,6 +9,10 @@ This allows you to add a Google Map region to any page, showing a heatmap based 
 ## DEMO ##
 
 [https://apex.oracle.com/pls/apex/f?p=JK64_GEOHEATMAP&c=JK64](https://apex.oracle.com/pls/apex/f?p=JK64_GEOHEATMAP&c=JK64)
+
+## PRE-REQUISITES ##
+
+* [Oracle Application Express 5.0.2](https://apex.oracle.com)
 
 ## INSTALLATION INSTRUCTIONS ##
 
