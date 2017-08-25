@@ -1,4 +1,4 @@
-# GeoHeatmap (Google Maps) #
+# GeoHeatmap (Google Maps) ![APEX Plugin](https://cdn.rawgit.com/Dani3lSun/apex-github-badges/b7e95341/badges/apex-plugin-badge.svg)
 
 **A Region plugin for Oracle Application Express**
 
