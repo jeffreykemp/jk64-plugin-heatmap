@@ -19,7 +19,7 @@ This allows you to add a Google Map region to any page, showing a heatmap based 
 
 1. Download the [latest release](https://github.com/jeffreykemp/jk64-plugin-heatmap/releases/latest)
 2. Install the plugin to your application - **region_type_plugin_com_jk64_heatmap.sql**
-3. Supply your **Google API Key**
+3. Supply your **Google API Key** (Component Settings)
 4. Add a region to the page, select type **GeoHeatmap [Plug-In]**
 5. For **SQL Source**, enter a query with 3 columns (see example below)
 6. Update the **Number of Rows** to a reasonable upper limit (default is 15, you probably want a much bigger number)
