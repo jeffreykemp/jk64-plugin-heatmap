@@ -1,5 +1,7 @@
 # GeoHeatmap (Google Maps) ![APEX Plugin](https://cdn.rawgit.com/Dani3lSun/apex-github-badges/b7e95341/badges/apex-plugin-badge.svg)
 
+> NO LONGER IN DEVELOPMENT - all features of this plugin have now been rolled into the **[JK64 Report Map](https://jeffreykemp.github.io/jk64-plugin-reportmap/)** for APEX 18.2 onwards - please use that one instead.
+
 **A Region plugin for Oracle Application Express**
 
 This allows you to add a Google Map region to any page, showing a heatmap based on a query you specify. 
