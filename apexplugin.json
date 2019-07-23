@@ -1,7 +1,7 @@
 {
   "name" : "GeoHeatMap",
   "version" : "0.2",
-  "description" : "GeoHeatmap (Google Map) region plugin",
+  "description" : "GeoHeatmap plugin - SUPERSEDED by ReportMap https://jeffreykemp.github.io/jk64-plugin-reportmap/",
   "keywords" : ["map"],
   "homepage" : "https://github.com/jeffreykemp/jk64-plugin-heatmap",
   "bugs" : {
